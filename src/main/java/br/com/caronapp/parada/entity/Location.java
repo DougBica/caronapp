@@ -1,18 +1,17 @@
 package br.com.caronapp.parada.entity;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 public class Location {
 
-	private List<BigDecimal> coordinates;
+	private List<Double> coordinates;
 	private String type = "Point";
 
-	public List<BigDecimal> getCoordinates() {
+	public List<Double> getCoordinates() {
 		return coordinates;
 	}
 
-	public void setCoordinates(List<BigDecimal> coordinates) {
+	public void setCoordinates(List<Double> coordinates) {
 		this.coordinates = coordinates;
 	}
 
